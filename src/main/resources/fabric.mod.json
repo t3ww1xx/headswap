@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "headswap",
+  "version": "${version}",
+  "name": "HeadSwap",
+  "description": "Клавиша G меняет местами шлем и предмет в левой руке (шар/сфера).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.headswap.HeadSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
